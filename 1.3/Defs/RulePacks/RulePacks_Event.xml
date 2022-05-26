@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<RulePackDef>
+		<defName>Event_TeleportingSicknessEpisode</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>r_logentry->[SUBJECT_definite] had a Teleporting Sickness Episode.</li>
+				<li>r_logentry->[SUBJECT_definite] Teleported randomly [cause] their Teleporting Sickness.</li>
+
+				<li>cause->because of</li>
+				<li>cause->due to</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+</Defs>
