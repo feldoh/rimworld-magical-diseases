@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<HediffDef ParentName="InfectionBase" Class="Magical_Diseases.Illness.HediffDef_RandomHair">
+		<description>A disease of magical origin which causes the patient's hair to randomly change colour. It is a completely benign illness which can ruin a carefully designed ensemble.</description>
+		<hediffClass>Magical_Diseases.Illness.Hediff_RandomHair</hediffClass>
+		<defName>Feldoh_RandomHairSickness</defName>
+		<label>Restless Hair Syndrome</label>
+		<makesSickThought>false</makesSickThought>
+		<initialSeverity>1</initialSeverity>
+		<lethalSeverity>-1</lethalSeverity>
+		<scenarioCanAdd>true</scenarioCanAdd>
+		<tendable>false</tendable>
+		<comps>
+			<li Class="HediffCompProperties_Disappears">
+				<disappearsAfterTicks>333333~999999</disappearsAfterTicks>
+			</li>
+			<li Class="HediffCompProperties_RecoveryThought">
+				<thought>Feldoh_LessInteresting</thought>
+			</li>
+			<li Class="HediffCompProperties_DisappearsOnDeath"/>
+		</comps>
+		<stages>
+			<li>
+				<label>pronounced</label>
+			</li>
+		</stages>
+	</HediffDef>
+</Defs>

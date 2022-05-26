@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef/diseases</xpath>
+		<value>
+			<li>
+				<diseaseInc>Feldoh_Disease_TeleportingSickness</diseaseInc>
+				<commonality>30</commonality>
+			</li>
+			<li>
+				<diseaseInc>Feldoh_Disease_RandomHairSickness</diseaseInc>
+				<commonality>40</commonality>
+			</li>
+		</value>
+	</Operation>
+</Patch>
