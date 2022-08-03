@@ -4,5 +4,8 @@
 	<TextMote_TeleportingSicknessEpisode>Oh {0} what's happening</TextMote_TeleportingSicknessEpisode>
 	<TextMote_TeleportingSicknessEpisodeExit>Where am I now?</TextMote_TeleportingSicknessEpisodeExit>
 	<TextMote_RandomHairSicknessEpisode>I feel... different</TextMote_RandomHairSicknessEpisode>
+	
+	<!-- Chromatic Sensitivity -->
+	<TextMote_ChromaticSensitivity_FeelingBlue>I'm feeling a little blue</TextMote_ChromaticSensitivity_FeelingBlue>
 </LanguageData>
 

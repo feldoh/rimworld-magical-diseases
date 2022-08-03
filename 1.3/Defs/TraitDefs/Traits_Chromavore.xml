@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<TraitDef>
+		<defName>Feldoh_Chromavore</defName>
+		<commonality>0.01</commonality>
+		<degreeDatas>
+			<li>
+				<label>chromavore</label>
+				<description>{PAWN_nameDef} able to metabolise pigmentation compounds leading their skin to gradually adopt the colour of their food.</description>
+				<allowedMeditationFocusTypes><li>Artistic</li></allowedMeditationFocusTypes>
+				<extraThoughtsFromIngestion>
+					<li>
+						<thoughtsDirect>
+							<li>Feldoh_AteFoodChromavore</li>
+						</thoughtsDirect>
+					</li>
+				</extraThoughtsFromIngestion>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+</Defs>
