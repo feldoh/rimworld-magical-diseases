@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	<!-- Illness -->
+	<TextMote_TeleportingSicknessEpisode>Oh {0} what's happening</TextMote_TeleportingSicknessEpisode>
+	<TextMote_TeleportingSicknessEpisodeExit>Where am I now?</TextMote_TeleportingSicknessEpisodeExit>
+	<TextMote_RandomHairSicknessEpisode>I feel... different</TextMote_RandomHairSicknessEpisode>
+</LanguageData>
+
